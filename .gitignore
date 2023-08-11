@@ -1,0 +1,9 @@
+.env/
+
+node_modules/
+
+.vscode/
+
+chk/
+
+__pycache__/

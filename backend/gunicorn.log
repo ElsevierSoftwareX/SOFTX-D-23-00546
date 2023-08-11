@@ -1,0 +1,80 @@
+nohup: ignoring input
+[2023-08-10 02:52:50 +0000] [39099] [INFO] Starting gunicorn 21.2.0
+[2023-08-10 02:52:50 +0000] [39099] [INFO] Listening at: http://0.0.0.0:8000 (39099)
+[2023-08-10 02:52:50 +0000] [39099] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-08-10 02:52:50 +0000] [39101] [INFO] Booting worker with pid: 39101
+[2023-08-10 02:52:50 +0000] [39103] [INFO] Booting worker with pid: 39103
+/home/compu/korcat/backend/.env/lib/python3.8/site-packages/umap/distances.py:1063: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit()
+/home/compu/korcat/backend/.env/lib/python3.8/site-packages/umap/distances.py:1071: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit()
+/home/compu/korcat/backend/.env/lib/python3.8/site-packages/umap/distances.py:1086: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit()
+/home/compu/korcat/backend/.env/lib/python3.8/site-packages/umap/umap_.py:660: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit()
+[2023-08-10 02:53:19 +0000] [39101] [INFO] Started server process [39101]
+[2023-08-10 02:53:19 +0000] [39101] [INFO] Waiting for application startup.
+[2023-08-10 02:53:19 +0000] [39101] [INFO] Application startup complete.
+/home/compu/korcat/backend/.env/lib/python3.8/site-packages/umap/distances.py:1063: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit()
+/home/compu/korcat/backend/.env/lib/python3.8/site-packages/umap/distances.py:1071: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit()
+/home/compu/korcat/backend/.env/lib/python3.8/site-packages/umap/distances.py:1086: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit()
+/home/compu/korcat/backend/.env/lib/python3.8/site-packages/umap/umap_.py:660: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit()
+[2023-08-10 02:53:19 +0000] [39103] [INFO] Started server process [39103]
+[2023-08-10 02:53:19 +0000] [39103] [INFO] Waiting for application startup.
+[2023-08-10 02:53:19 +0000] [39103] [INFO] Application startup complete.
+[2023-08-10 02:53:38 +0000] [39099] [INFO] Handling signal: hup
+[2023-08-10 02:53:38 +0000] [39099] [INFO] Hang up: Master
+[2023-08-10 02:53:38 +0000] [39179] [INFO] Booting worker with pid: 39179
+[2023-08-10 02:53:38 +0000] [39180] [INFO] Booting worker with pid: 39180
+[2023-08-10 02:53:38 +0000] [39101] [INFO] Shutting down
+[2023-08-10 02:53:38 +0000] [39101] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2023-08-10 02:53:38 +0000] [39101] [INFO] Finished server process [39101]
+[2023-08-10 02:53:38 +0000] [39101] [INFO] Worker exiting (pid: 39101)
+[2023-08-10 02:53:38 +0000] [39099] [ERROR] Worker (pid:39103) exited with code 129
+[2023-08-10 02:53:38 +0000] [39099] [ERROR] Worker (pid:39103) exited with code 129.
+/home/compu/korcat/backend/.env/lib/python3.8/site-packages/umap/distances.py:1063: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit()
+/home/compu/korcat/backend/.env/lib/python3.8/site-packages/umap/distances.py:1071: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit()
+/home/compu/korcat/backend/.env/lib/python3.8/site-packages/umap/distances.py:1086: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit()
+/home/compu/korcat/backend/.env/lib/python3.8/site-packages/umap/umap_.py:660: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit()
+[2023-08-10 02:54:07 +0000] [39180] [INFO] Started server process [39180]
+[2023-08-10 02:54:07 +0000] [39180] [INFO] Waiting for application startup.
+/home/compu/korcat/backend/.env/lib/python3.8/site-packages/umap/distances.py:1063: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit()
+/home/compu/korcat/backend/.env/lib/python3.8/site-packages/umap/distances.py:1071: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit()
+/home/compu/korcat/backend/.env/lib/python3.8/site-packages/umap/distances.py:1086: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit()
+/home/compu/korcat/backend/.env/lib/python3.8/site-packages/umap/umap_.py:660: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit()
+[2023-08-10 02:54:07 +0000] [39179] [INFO] Started server process [39179]
+[2023-08-10 02:54:07 +0000] [39179] [INFO] Waiting for application startup.
+[2023-08-10 02:54:07 +0000] [39180] [INFO] Application startup complete.
+[2023-08-10 02:54:07 +0000] [39179] [INFO] Application startup complete.
+test.txt
+요셉은 태안건설업체의 후원자이다.
+
+result:
+defaultdict(None, {'lemmaCnt': 3, 'average_similarity': 0.9999999403953552, 'conjuctions': 0, 'lemmattr': 1.0, 'lemmaMattr': -1, 'lexicalDensityTokens': 0.1388888888888889, 'lexicalDensityTypes': 0.1388888888888889, 'contentTtr': 1.0, 'functionTtr': 1.0, 'nounTtr': 1.0, 'verbTtr': 1.0, 'adjTtr': 0, 'advTtr': 0, 'bigramLemmaTtr': 1.0, 'trigramLemmaTtr': 1.0, 'adjacent_sentence_overlap_all_lemmas': 0, 'adjacent_sentence_overlap_all_lemmas_normed': 0, 'binary_adjacent_sentence_overlap_all_lemmas': 0, 'adjacent_two_sentence_overlap_all_lemmas': 0, 'adjacent_two_sentence_overlap_all_lemmas_normed': 0, 'binary_adjacent_two_sentence_overlap_all_lemmas': 0, 'adjacent_sentence_overlap_content_lemmas': 0, 'adjacent_sentence_overlap_content_lemmas_normed': 0, 'binary_adjacent_sentence_overlap_content_lemmas': 0, 'adjacent_two_sentence_overlap_content_lemmas': 0, 'adjacent_two_sentence_overlap_content_lemmas_normed': 0, 'binary_adjacent_two_sentence_overlap_content_lemmas': 0, 'adjacent_sentence_overlap_function_lemmas': 0, 'adjacent_sentence_overlap_function_lemmas_normed': 0, 'binary_adjacent_sentence_overlap_function_lemmas': 0, 'adjacent_two_sentence_overlap_function_lemmas': 0, 'adjacent_two_sentence_overlap_function_lemmas_normed': 0, 'binary_adjacent_two_sentence_overlap_function_lemmas': 0, 'adjacent_sentence_overlap_noun_lemmas': 0, 'adjacent_sentence_overlap_noun_lemmas_normed': 0, 'binary_adjacent_sentence_overlap_noun_lemmas': 0, 'adjacent_two_sentence_overlap_noun_lemmas': 0, 'adjacent_two_sentence_overlap_noun_lemmas_normed': 0, 'binary_adjacent_two_sentence_overlap_noun_lemmas': 0, 'adjacent_sentence_overlap_verb_lemmas': 0, 'adjacent_sentence_overlap_verb_lemmas_normed': 0, 'binary_adjacent_sentence_overlap_verb_lemmas': 0, 'adjacent_two_sentence_overlap_verb_lemmas': 0, 'adjacent_two_sentence_overlap_verb_lemmas_normed': 0, 'binary_adjacent_two_sentence_overlap_verb_lemmas': 0, 'adjacent_sentence_overlap_adjective_lemmas': 0, 'adjacent_sentence_overlap_adjective_lemmas_normed': 0, 'binary_adjacent_sentence_overlap_adjective_lemmas': 0, 'adjacent_two_sentence_overlap_adjective_lemmas': 0, 'adjacent_two_sentence_overlap_adjective_lemmas_normed': 0, 'binary_adjacent_two_sentence_overlap_adjective_lemmas': 0, 'adjacent_sentence_overlap_adverb_lemmas': 0, 'adjacent_sentence_overlap_adverb_lemmas_normed': 0, 'binary_adjacent_sentence_overlap_adverb_lemmas': 0, 'adjacent_two_sentence_overlap_adverb_lemmas': 0, 'adjacent_two_sentence_overlap_adverb_lemmas_normed': 0, 'binary_adjacent_two_sentence_overlap_adverb_lemmas': 0})
+test.txt
+요셉은 태안건설업체의 후원자이다.
+  / NNP 은 / JX  / NNP 의 / JKG 200 / SN 이 / VCP 다 / EF ./SF 
+test.txt
+요셉은 태안건설업체의 후원자이다.
+
+result:
+defaultdict(None, {'lemmaCnt': 3, 'average_similarity': 0.9999999403953552, 'conjuctions': 0, 'lemmattr': 1.0, 'lemmaMattr': -1, 'lexicalDensityTokens': 0.1388888888888889, 'lexicalDensityTypes': 0.1388888888888889, 'contentTtr': 1.0, 'functionTtr': 1.0, 'nounTtr': 1.0, 'verbTtr': 1.0, 'adjTtr': 0, 'advTtr': 0, 'bigramLemmaTtr': 1.0, 'trigramLemmaTtr': 1.0, 'adjacent_sentence_overlap_all_lemmas': 0, 'adjacent_sentence_overlap_all_lemmas_normed': 0, 'binary_adjacent_sentence_overlap_all_lemmas': 0, 'adjacent_two_sentence_overlap_all_lemmas': 0, 'adjacent_two_sentence_overlap_all_lemmas_normed': 0, 'binary_adjacent_two_sentence_overlap_all_lemmas': 0, 'adjacent_sentence_overlap_content_lemmas': 0, 'adjacent_sentence_overlap_content_lemmas_normed': 0, 'binary_adjacent_sentence_overlap_content_lemmas': 0, 'adjacent_two_sentence_overlap_content_lemmas': 0, 'adjacent_two_sentence_overlap_content_lemmas_normed': 0, 'binary_adjacent_two_sentence_overlap_content_lemmas': 0, 'adjacent_sentence_overlap_function_lemmas': 0, 'adjacent_sentence_overlap_function_lemmas_normed': 0, 'binary_adjacent_sentence_overlap_function_lemmas': 0, 'adjacent_two_sentence_overlap_function_lemmas': 0, 'adjacent_two_sentence_overlap_function_lemmas_normed': 0, 'binary_adjacent_two_sentence_overlap_function_lemmas': 0, 'adjacent_sentence_overlap_noun_lemmas': 0, 'adjacent_sentence_overlap_noun_lemmas_normed': 0, 'binary_adjacent_sentence_overlap_noun_lemmas': 0, 'adjacent_two_sentence_overlap_noun_lemmas': 0, 'adjacent_two_sentence_overlap_noun_lemmas_normed': 0, 'binary_adjacent_two_sentence_overlap_noun_lemmas': 0, 'adjacent_sentence_overlap_verb_lemmas': 0, 'adjacent_sentence_overlap_verb_lemmas_normed': 0, 'binary_adjacent_sentence_overlap_verb_lemmas': 0, 'adjacent_two_sentence_overlap_verb_lemmas': 0, 'adjacent_two_sentence_overlap_verb_lemmas_normed': 0, 'binary_adjacent_two_sentence_overlap_verb_lemmas': 0, 'adjacent_sentence_overlap_adjective_lemmas': 0, 'adjacent_sentence_overlap_adjective_lemmas_normed': 0, 'binary_adjacent_sentence_overlap_adjective_lemmas': 0, 'adjacent_two_sentence_overlap_adjective_lemmas': 0, 'adjacent_two_sentence_overlap_adjective_lemmas_normed': 0, 'binary_adjacent_two_sentence_overlap_adjective_lemmas': 0, 'adjacent_sentence_overlap_adverb_lemmas': 0, 'adjacent_sentence_overlap_adverb_lemmas_normed': 0, 'binary_adjacent_sentence_overlap_adverb_lemmas': 0, 'adjacent_two_sentence_overlap_adverb_lemmas': 0, 'adjacent_two_sentence_overlap_adverb_lemmas_normed': 0, 'binary_adjacent_two_sentence_overlap_adverb_lemmas': 0})
+t.txt
+타스트리머 방송에서는 예의를 지켜주시기 바랍니다!
+  / NNP  / NNP 에서 / JKB 는 / JX 오랫동안 / NNG 를 / JKO 지키 / VV 어 / EC 주 / VX 시 / EP 기 / ETN 바라 / VV ㅂ니다 / EF ! /SF 
+Text1.txt
+커피 원두는 로스팅의 강도에 따라 다양한 맛과 향을 얻는다. 로스팅은 대략 아홉 가지 강도로 나뉘는데, 이에 따라 원두의 색은 황토색에서부터 검은 갈색에 이르기까지 다양하게 바뀐다. 또 커피를 끓였을 때 쓴맛, 단맛, 신맛 등 조금씩 다른 맛을 느낄 수 있게 된다. 로스팅은 수출국보다는 소비국에서 주로 이루어진다.
+
+result:
