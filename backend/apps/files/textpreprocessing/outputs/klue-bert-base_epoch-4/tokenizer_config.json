@@ -1,0 +1,16 @@
+{
+  "cls_token": "[CLS]",
+  "do_basic_tokenize": true,
+  "do_lower_case": false,
+  "mask_token": "[MASK]",
+  "model_max_length": 512,
+  "name_or_path": "klue/bert-base",
+  "never_split": null,
+  "pad_token": "[PAD]",
+  "sep_token": "[SEP]",
+  "special_tokens_map_file": "C:\\Users\\DESKTOP/.cache\\huggingface\\transformers\\aeaaa3afd086a040be912f92ffe7b5f85008b744624f4517c4216bcc32b51cf0.054ece8d16bd524c8a00f0e8a976c00d5de22a755ffb79e353ee2954d9289e26",
+  "strip_accents": null,
+  "tokenize_chinese_chars": true,
+  "tokenizer_class": "BertTokenizer",
+  "unk_token": "[UNK]"
+}
